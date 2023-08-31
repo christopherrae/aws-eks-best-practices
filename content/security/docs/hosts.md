@@ -3,6 +3,11 @@ Inasmuch as it's important to secure your container images, it's equally importa
 
 ## Recommendations
 
+### Use Amazon Systems Manager to manage patch releases
+
+### Use Amazon Inspector to scan operating system environments and automate patch remediation
+
+
 ### Use an OS optimized for running containers
 Consider using Flatcar Linux, Project Atomic, RancherOS, and [Bottlerocket](https://github.com/bottlerocket-os/bottlerocket/), a special purpose OS from AWS designed for running Linux containers.  It includes a reduced attack surface, a disk image that is verified on boot, and enforced permission boundaries using SELinux.
 
