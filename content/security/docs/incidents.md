@@ -115,6 +115,9 @@ Divide your security practitioners into 2 teams: red and blue.  The red team wil
 ### Run penetration tests against your cluster
 Periodically attacking your own cluster can help you discover vulnerabilities and misconfigurations.  Before getting started, follow the [penetration test guidelines](https://aws.amazon.com/security/penetration-testing/) before conducting a test against your cluster. 
 
+### Use AWS Security Hub to automate security best practice checks and aggregate security alerts into a single view
+If you don't already have a cloud security posture management (CSPM) tool, consider using [AWS Security Hub](https://aws.amazon.com/security-hub/) to automate security best practice checks, aggregate security alerts into a single place and format, and understand your overall security posture across all of your AWS accounts. Detect deviations from security best practices with a single click. Automatically aggregate security findings in a standardized data format from AWS and partner services. Accelerate mean time to resolution (MTTR) with automated response and remediation actions. Visualize the security posture of your AWS-based applications. To review the controls avaialble for EKS within AWS Security Hub, review the AWS Security Hub User Guide page on on [Amazon Elastic Kubernetes Service controls](https://docs.aws.amazon.com/securityhub/latest/userguide/eks-controls.html)
+
 ## Tools
 + [kube-hunter](https://github.com/aquasecurity/kube-hunter), a penetration testing tool for Kubernetes. 
 + [Gremlin](https://www.gremlin.com/product/#kubernetes), a chaos engineering toolkit that you can use to simulate attacks against your applications and infrastructure. 
